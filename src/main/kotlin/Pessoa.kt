@@ -1,5 +1,6 @@
 // Classe de apenas objetos valor (sem codigo, só dados)
 // Por baixo dos panos, o kotlin gera um bytecode para essa classe em java
+//o proprio kotlin ja gera no bytecode os gets e setters (se for possivel), alem do construtors
 class Pessoa (
     val nome:String,
     val idade:Int
